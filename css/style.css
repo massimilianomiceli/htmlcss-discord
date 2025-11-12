@@ -50,11 +50,16 @@
     border-style: dotted;  
 }
 
+/* text color */
+.txt-white{color: white;}
+
 /* border color */
 .bcb{border-color: black;}
 .bcw{border-color: white;}
 
 /* background */
+.bg-transparent{background-color: transparent;}
+.bg-blue{background-color: #3160E0;}
 .bgo{background-color: #DAA520;}
 .bga{background-color: #ADD8E6;}
 .bgb{background-color: #00008B;}
@@ -96,6 +101,16 @@ ul.navbar{
 
 ul.navbar > li{
     display: inline-block;
+}
+
+.img-logo{
+    height: 2rem;
+}
+
+.jumbotron{
+    background-image: url("./img/logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 footer{
